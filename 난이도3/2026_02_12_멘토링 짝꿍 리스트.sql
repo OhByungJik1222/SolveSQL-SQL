@@ -22,4 +22,4 @@ SELECT  e.mentee_id
     ON  e.mentee_dept != o.mentor_dept
  ORDER
     BY  e.mentee_id ASC
-        ,o.mentor_id ASC;
+        ,o.mentor_id ASC
